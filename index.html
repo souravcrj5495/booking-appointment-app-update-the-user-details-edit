@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">REGISTRATION</h1>
+    <div class="form-container">
+        <form style="background-color: rgb(192, 178, 178);">
+            <h2>Add User</h2>
+            <div class="form-group">
+                <label>Name</label>
+                <input id="name" type="text" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label>Email id</label>
+                <input id="email" type="text" autocomplete="off">
+            </div>
+            <div>
+                <button onclick="addInput()">Submit</button>
+            </div>
+        </form>
+        <div id="entries-container"></div> <!-- Container for entries -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"></script>
+    <script src="index.js"></script>
+    
+
+</body>
+</html>
